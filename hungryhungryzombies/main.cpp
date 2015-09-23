@@ -73,6 +73,7 @@ int main()
 	
 	
 	zombie ted;
+	pirate martin;
 	int randhunger = rand() % 10 + 1;
 	ted.setHunger(randhunger);
 	//ted.print();
@@ -84,6 +85,9 @@ int main()
 	
 	int userInput = -1; 
 	
+	//talk like a pirate
+	
+	martin.print();
 	userInput = std::cin.get();
 	
 	if(userInput == 1)
@@ -113,16 +117,18 @@ int main()
 	}
 
 
+
+	martin.print();
 		
 		
-		
 	
 	
 	
 	
 	
 	
-	int wait = std::cin.get();
+	
+	std::cin.get();
 	
 	
 }
