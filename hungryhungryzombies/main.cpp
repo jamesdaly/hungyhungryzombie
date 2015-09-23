@@ -56,6 +56,18 @@ struct zombie{
 };
 
 
+struct pirate{
+	
+
+	void print(){
+		std::cout << "YARRRRRR!!!" << std::endl;
+		
+		
+	}
+		
+};
+
+
 int main()
 {
 	
